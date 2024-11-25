@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="h-screen bg-cover">
-        <ul className=" circles ">
+        <ul className=" circles w-full">
           <li></li>
           <li></li>
           <li></li>

@@ -16,7 +16,7 @@ function HomePage() {
           </a>
         </div>
         <div className="flex justify-center mt-10">
-          <img src={Welcome} className="sm:mr-20 h-40 md:h-72 drop-shadow-md shadow-gray-500 object-center " />
+          <img src={Welcome} className="sm:mr-20 h-56 md:h-72 drop-shadow-md shadow-gray-500 object-center " />
         </div>
       </div>
     </div>
