@@ -9,8 +9,19 @@ function App() {
       <div>
         {/* navbar */}
         <Navbar />
-        
+
         <HomePage />
+
+        <ul className=" circles ">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
     </>
   );

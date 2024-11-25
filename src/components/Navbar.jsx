@@ -5,10 +5,10 @@ const Navbar = (props) => {
   const [Navbar, SetNavBar] = useState(false);
 
   return (
-    <div className="navbar bg-slate-100 items-center static w-full shadow-lg shadow-gray-200">
+    <div className="navbar bg-slate-100 items-center static w-full shadow-lg shadow-gray-200 ">
       <div className="navbar-box flex flex-wrap p-5">
         <div className="logo flex items-center">
-          <img src={Logo} className="w-10 h-10 mr-2 opacity-65" />
+          <img src={Logo} className="w-10 h-10 mr-2 opacity-50" />
           <h1 className="font-bold text-3xl mr-6 text-gray-500 hover:text-gray-600 drop-shadow-md shadow-gray-600 items-center">ipii.xyz</h1>
         </div>
         {/* Menu for pc */}

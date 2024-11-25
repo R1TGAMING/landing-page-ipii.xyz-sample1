@@ -11,6 +11,9 @@ function HomePage() {
           <p className="text-gray-400 ml-3 drop-shadow-md shadow-gray-600">
             Jasa Layanan Pembuatan Website & Bot Whatsapp, Discord. <br></br>Terpercaya 100%
           </p>
+          <a href="https://wa.link/9e4z01">
+            <button className="bg-green-500 rounded p-2 mt-2 text-green-100 ml-3 shadow-md hover:shadow-green-400 font-bold animate-infinite hover:animate-wiggle  shadow-green-200">Whatsapp</button>
+          </a>
         </div>
         <div className="flex justify-center mt-10">
           <img src={Welcome} className="sm:mr-20 h-72 drop-shadow-md shadow-gray-500 object-center " />
