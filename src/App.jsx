@@ -6,12 +6,7 @@ import HomePage from "./pages/HomePage";
 function App() {
   return (
     <>
-      <div>
-        {/* navbar */}
-        <Navbar />
-
-        <HomePage />
-
+      <div className="h-screen bg-cover">
         <ul className=" circles ">
           <li></li>
           <li></li>
@@ -22,6 +17,11 @@ function App() {
           <li></li>
           <li></li>
         </ul>
+
+        {/* navbar */}
+        <Navbar />
+
+        <HomePage />
       </div>
     </>
   );
