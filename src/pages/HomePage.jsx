@@ -22,8 +22,8 @@ function HomePage() {
 
       <div className="harga flex shadow-md shadow-gray-300 flex-col items-center bg-gray-200 w-full p-10 h-full ">
         <div className="">
-          <h1 className="font-bold text-4xl text-gray-500 opacity-30 hover:opacity-50 text-shadow-lg shadow-gray-600 mb-20">Pricing</h1>
-          <h1 className="font-bold text-4xl text-gray-500 opacity-30 ">List Harga Akan Segera Diumumkan :)</h1>
+          <h1 className="font-bold text-4xl text-gray-500 opacity-30 hover:opacity-50 text-shadow-lg shadow-gray-600 ">Pricing</h1>
+          <h1 className=" text-4xl text-gray-500 opacity-30 text-shadow-lg shadow-gray-600 font-extralight">List Harga Akan Segera Diumumkan :)</h1>
         </div>
       </div>
     </div>
