@@ -3,8 +3,8 @@ import Welcome from "../../public/welcome.png";
 
 function HomePage() {
   return (
-    <div className="  mx-auto mt-32 min-h-screen  " id="beranda">
-      <div className="hero md:flex justify-center flex-row items-center content-center md:pb-32 sm:pb-28 pb-32">
+    <div className="mx-auto mt-32 min-h-screen" id="beranda">
+      <div className="hero md:flex justify-center flex-row items-center content-center md:pb-32 sm:pb-28 pb-20 ml-2">
         <div className=" items-center md:mr-64 mr-5 leading-tight ">
           <h1 className="text-gray-500 font-bold text-7xl drop-shadow-md shadow-gray-600">Welcome</h1>
           <h1 className="text-gray-400 font-bold ml-2 text-3xl drop-shadow-md shadow-gray-600">To ipii.xyz</h1>
