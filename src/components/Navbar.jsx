@@ -5,8 +5,8 @@ const Navbar = (props) => {
   const [Navbar, SetNavBar] = useState(false);
 
   return (
-    <div className="navbar bg-slate-100 items-center static w-full shadow-lg shadow-gray-200 ">
-      <div className="navbar-box flex flex-wrap p-5">
+    <div className="navbar bg-slate-100 items-center  w-full top-0 shadow-md shadow-gray-200 fixed z-10 overflow-hidden">
+      <div className="navbar-box container flex flex-wrap p-5">
         <div className="logo flex items-center">
           <img src={Logo} className="w-10 h-10 mr-2 opacity-50" />
           <h1 className="font-bold text-3xl mr-6 text-gray-500 hover:text-gray-600 drop-shadow-md shadow-gray-600 items-center">ipii.xyz</h1>
@@ -32,7 +32,7 @@ const Navbar = (props) => {
 
         {/* Menu for mobile */}
         {/* Button */}
-        <div className="md:hidden items-center ml-auto">
+        <div className="md:hidden items-center ml-auto top-0">
           <button id="menu-toggle" class="text-gray-800 focus:outline-none " onClick={() => SetNavBar(!Navbar)}>
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
@@ -42,7 +42,7 @@ const Navbar = (props) => {
       </div>
       {/* Menu */}
       {Navbar && (
-        <div className="md:hidden">
+        <div className="md:hidden top-0">
           <div className="px-5 pt-2 pb-3 space-y-1 text-gray-400 text-bold ">
             <a href="#beranda" className="block  hover:text-gray-500 animate-fade-down animate-delay-100">
               Beranda
